@@ -6,27 +6,24 @@
 	<meta name="description" content="Your description goes here">
 	<meta name="keywords" content="one, two, three">
   
-	<title>Walk the Plank</title>
+	<title>Amiibo Picker</title>
 
 	<!-- external CSS link here -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/reset.css">
+	
 </head>
 
 <body>
-	<header>
-		<h1>Amiibo Picker</h1>
-	</header>
-
-	<section>
-		<h2></h2>
-		<img src="" alt="">
-		<h3></h3>
-	</section>
-	<section>
-		<input type="text">
-		<button type="submit">Search</button>
-	</section>
+	<div class="wrapper">
+		<header>
+			<h1>Amiibo Picker</h1>
+		</header>
+		<section class="search">
+			<input type="text">
+			<button type="submit">Search</button>
+		</section>
+		<section class="cards" id="result"></section>
+	</div>
 
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
