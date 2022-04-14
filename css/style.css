@@ -52,26 +52,70 @@ LAYOUT
 html{
 	font-size: 62.5%;
 }
+body{
+	color: white;
+	background: rgb(0,155,235);
+	font-family: 'Roboto Mono', monospace;
+}
 header{
 	padding: 20px;
 	text-align: center;
 }
 h1{
+	font-weight: bold;
 	font-size: 6rem;
 	margin: 0 auto;
+	text-shadow: 4px 4px 4px rgba(0,0,0,.5);
 }
 .wrapper{
 	width: 1440px;
 	margin: 0 auto;
+	padding: 20px;
 }
+.filter{
+	font-weight:bold;
+	display: flex;
+	padding: 10px;
+	width: 40%;
+
+}
+.filter input[type="radio"]{
+	display: none;
+}
+label{
+	line-height: 3rem;
+	border: 3px solid white;
+	width: 100px;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+	cursor:pointer;
+}
+label:first-of-type{
+	border-radius: 15px 0 0 15px;
+}
+label:last-of-type{
+	border-radius: 0 15px 15px 0;
+}
+.filter input:checked+label{
+	background-color: rgb(0,155,235);
+}
+
 .search{
+	display: flex;
+	
+	
+	box-shadow: 5px 5px 4px rgba(0,0,0,.5);
 	padding: 30px;
 	border-radius: 20px;
 	text-align: center;
-	background: RGB(196,37,38);
+	background: rgb(230,0,30);
 }
 input{
-	width:75%;
+	font-family: 'Roboto Mono', sans-serif;
+	width:100%;
+	font-weight: bold;
 	padding: 10px;
 	border-radius: 20px;
 	border: none;
@@ -80,15 +124,52 @@ input{
 	vertical-align: middle;
 	font-size: 2.5rem;
 }
+input:focus{
+	outline: white;
+	box-shadow: inset 0px 5px 4px rgba(0,0,0,.5);
+}
+.cards{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 50px;
+	
+}
+.cards div{
+	text-align: center;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.4);
+	padding: 20px 20px 0 20px;
+	border-radius: 25px;
+	background: rgb(165,200,15);
+	border: 10px dashed white;
+
+}
+
+.cards img{
+	height: 70%;
+	margin-bottom: 20px;
+}
+
+h3,h5{
+	text-shadow: 4px 4px 4px rgba(0,0,0,.6);
+	padding: 5px;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
 button{
-	width: 10%;
+	text-shadow: 3px 3px 3px rgba(0,0,0,.3);
+	font-family: 'Roboto Mono', sans-serif;
+	color: white;
+	font-weight: bold;
+	width: 20%;
 	padding: 10px;
 	border: none;
 	position: relative;
 	right: 25px;
+	background: rgb(165,200,15);
 	font-size:  2.5rem;
 	vertical-align: middle;
-
 	border-radius: 20px;
 }
 

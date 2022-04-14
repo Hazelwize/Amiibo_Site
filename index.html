@@ -5,10 +5,15 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Your description goes here">
 	<meta name="keywords" content="one, two, three">
-  
+	
 	<title>Amiibo Picker</title>
 
 	<!-- external CSS link here -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+
 	<link rel="stylesheet" href="css/style.css">
 	
 </head>
@@ -21,6 +26,15 @@
 		<section class="search">
 			<input type="text">
 			<button type="submit">Search</button>
+			<section class="filter">
+				<h3>Filter:</h3>
+				
+				<input type="radio" id="name" name="type" checked>
+				<label for="name">Name</label>
+			
+				<input type="radio" id="series" name="type">
+				<label for="series">Series</label>
+			</section>
 		</section>
 		<section class="cards" id="result"></section>
 	</div>
