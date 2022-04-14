@@ -61,11 +61,19 @@ header{
 	padding: 20px;
 	text-align: center;
 }
+
 h1{
+	
 	font-weight: bold;
 	font-size: 6rem;
 	margin: 0 auto;
 	text-shadow: 4px 4px 4px rgba(0,0,0,.5);
+}
+h1>span{
+	font-size: 5rem;
+	position: relative;
+	bottom:15px;
+	right: 20px;
 }
 .wrapper{
 	width: 1440px;
@@ -100,6 +108,9 @@ label:last-of-type{
 }
 .filter input:checked+label{
 	background-color: rgb(0,155,235);
+}
+h1>img{
+	width: 25%;
 }
 
 .search{
@@ -137,6 +148,7 @@ input:focus{
 }
 .cards div{
 	text-align: center;
+	margin: 25px 0;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.4);
 	padding: 20px 20px 0 20px;
 	border-radius: 25px;
@@ -146,7 +158,7 @@ input:focus{
 }
 
 .cards img{
-	height: 70%;
+	height: 360px;
 	margin-bottom: 20px;
 }
 
