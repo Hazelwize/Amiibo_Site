@@ -63,19 +63,3 @@ function getName() {
 
 
 
-
-
-// const options = {
-// 	method: 'POST',
-// 	headers: {
-// 		'content-type': 'application/json',
-// 		'X-RapidAPI-Host': 'ebay-average-selling-price.p.rapidapi.com',
-// 		'X-RapidAPI-Key': 'a5faebe2f8msha378d40ff34ef15p1021d1jsn1ab55d709ea9'
-// 	},
-// 	body: '{"keywords":"iPhone","excluded_keywords":"locked cracked case box read LCD","max_search_results":"200","category_id":"9355","aspects":[{"name":"Model","value":"Apple iPhone X"},{"name":"LH_ItemCondition","value":"3000"},{"name":"Network","value":"Unlocked"},{"name":"Storage Capacity","value":"64 GB"}]}'
-// };
-
-// fetch('https://ebay-average-selling-price.p.rapidapi.com/findCompletedItems', options)
-// 	.then(response => response.json())
-// 	.then(response => console.log(response))
-// 	.catch(err => console.error(err));
