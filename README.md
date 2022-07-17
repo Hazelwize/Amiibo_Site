@@ -20,7 +20,7 @@ I would like to add authentication to this site as well as collections. I collec
 This was a great opportunity to learn about creating elements in a format that could be rendered nicely to the DOM and having a CSS class apply styles in a modular fashion. I also found that making the toggle between "name" and "series" a fun way to learn about how labels can be used in unexpected ways.
 
 ## Examples:
-Take a look at these couple examples that I have in my own portfolio:
+Take a look at these examples that I have in my own portfolio:
 
 **Murder Ink E-Sports Team:** https://github.com/Hazelwize/murderInk
 
